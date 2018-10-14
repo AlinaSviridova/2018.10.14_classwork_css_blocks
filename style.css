@@ -1,0 +1,84 @@
+.lalala  {
+/* list-style: none;  */
+list-style-type: square;
+list-style-position: indide;
+list-style-image: url("")
+
+}
+
+.lalali  {
+    line-height: 134%;   /*расстояние между самой низкой и самой верхней полосой строки  */  
+    letter-spacing: 1em;  /*расстояние между буквами  */ 
+    border-width: 2px;
+    border-color: black;
+    }
+
+    .lalalo  {
+        border: 2px dotted black;
+        border-color:;
+        }
+        .lalalp  {
+            border: 1px dotted rgb(255, 127, 127);
+            margin: 0px  50px 100px 200px;   /*верх право низ лево, поля схлопываются и нужно в 2 раза больше указывать*/ 
+            border-width: 1px 4px 12px 4px;
+            }
+
+.testingwidth {
+    min-width: 450px;
+    max-width: 850px;
+    text-align: center;
+    overflow: scroll ;   /*всё что не помещается в заданные пиксели будет скрыто - hidden , работают в паре с  max-width:*/ 
+}
+
+.paddingmargin {
+    padding: 50px;
+    margin: 100px;
+
+}
+
+
+.layout {
+    width:900px;
+    background: #eee;
+    margin:0 auto;   /*разместило текст посередине*/ 
+    overflow: hidden;
+
+}
+.main {
+    width:600px;
+    height: 500px;
+    border: 1px solid #ccc;
+    float: left;   /*разместило табличку слева*/ 
+}
+.sitebar{
+    width:270px;
+    height: 500px;
+    background: #999;
+    float: right;
+}
+/*
+body: {
+        text-align: center;
+}
+
+p{
+
+width: 300px;
+padding: 50px;
+border: 20px solid #0088dd;
+}
+
+p.example2{
+margin: 10px auto 10px auto;
+text-align: left;
+}*/ 
+
+li{
+    display: inline;      /* есть еще block, insline block */ 
+    margin-right: 10px;
+}
+
+li.coming-soon{
+    display: none;
+;
+}
